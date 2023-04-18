@@ -1,0 +1,40 @@
+.weather-container {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color:#6C63FF;;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 600px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  backdrop-filter: blur(10px);
+  
+}
+
+.city-name {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.temperature {
+  font-size: 72px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.weather-description,.wind-speed, .humidity, .pressure,.visibility,.lat,.lon{
+  font-size: 24px;
+  color: #fff;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,153 @@
+.main-div{
+  max-width: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}  
+
+.main-div form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 32px 16px;
+  max-height: 100%;
+  height: 100vh;
+  height: 200px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  left: 0;
+  margin-bottom: 1em;
+}
+
+
+
+  .main-div .chemical-details-container, .chemical-details-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    align-items: center;
+    background-color: white;
+    padding: 32px 16px;
+    max-height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    left: 0;
+    margin-bottom: 1em;
+  }
+
+  .chemical-details-container1{
+    max-height: 100%;
+    min-height: 100vh;
+  }
+  
+  .main-div h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+ .main-div p {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+ .main-div .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-div label {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .main-div input[type="text"] {
+    padding: 10px;
+    margin-left: 16px;
+    font-size: 18px;
+    width: 320px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  
+ .main-div button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 28px;
+    background-color:#6C63FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ .main-div button[type="submit"]:hover {
+    background-color:#4339fa ;
+  }
+
+  .list li{
+    margin: 20px;
+    padding: 16px;
+    border: 1px solid #6C63FF ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 6px;
+    width: 100%;
+  }
+/* 
+  li{
+    list-style:  none;
+  } */
+
+  .section{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    width: 1200px;
+  }
+  
+  .section,
+  .nested-section {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    max-width: 100%;
+    padding: 16px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .section > h3,
+  .nested-section > h4 {
+    cursor: pointer;
+    margin: 0;
+    padding-bottom: 12px;
+    user-select: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section > h3::before,
+  .nested-section > h4::before {
+    content: "►";
+    display: inline-block;
+    margin-right: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .section.expanded > h3::before,
+  .nested-section.expanded > h4::before {
+    transform: rotate(90deg);
+  }
+  
+
+  .section-content,
+  .nested-section-content {
+    max-width: 1200px;
+    word-wrap: break-word
+  }

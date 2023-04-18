@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import ChemicalDatabase from "./components/ChemicalDatabase";
+import IncidentTracking from "./components/IncidentTracking";
+import TrainingTool from "./components/TrainingTool";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import WeatherComponent from "./components/WeatherComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navigation />
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/weather-container" element={<WeatherComponent />} />
+        <Route path="/chemical-database" element={<ChemicalDatabase />} />
+        <Route path="/incident-tracking" element={<IncidentTracking />} />
+        <Route path="/training-tool" element={<TrainingTool />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

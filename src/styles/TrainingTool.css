@@ -1,0 +1,94 @@
+.training-tool {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  min-height: 100vh;
+  
+}
+
+.training-tool h1 {
+  margin-bottom: 3%;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.scenario {
+  width: 50%;
+  margin: 1%;
+  padding: 2%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #cccccc;
+}
+
+.scenario h2 {
+  margin-bottom: 3%;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.scenario p {
+  margin-bottom: 3%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #555555;
+}
+
+.scenario button {
+  width: 40%;
+  padding: 1%;
+  margin: 1%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #6C63FF;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scenario button:hover {
+  background-color: #4a41f5;
+}
+
+.score {
+  width: 100%;
+  margin: 1%;
+  padding: 2%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #cccccc;
+}
+
+.score h2 {
+  margin-bottom: 3%;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.score p {
+  margin-bottom: 3%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #555555;
+}
+
+
+select{
+  width: 240px;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.incident-div{
+  background-color: rgb(255, 255, 255);
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

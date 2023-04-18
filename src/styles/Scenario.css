@@ -1,0 +1,43 @@
+.scenario {
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .scenario h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 2em;
+        text-align: center;
+      }
+      
+      .scenario .options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        width: 100%;
+      }
+      
+      .scenario .options .option {
+        width: 40%;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .scenario .options .option input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      .scenario .options .option label {
+        font-size: 1.2em;
+        color: #444;
+      }
+      
